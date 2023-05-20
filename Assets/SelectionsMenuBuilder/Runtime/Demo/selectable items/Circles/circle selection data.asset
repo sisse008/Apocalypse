@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f3a4b105d5ad3e42a7c7e26703d6b58, type: 3}
+  m_Name: circle selection data
+  m_EditorClassIdentifier: 
+  ItemGroupName: Circle Selection
+  SelectionItems:
+  - {fileID: 2079047843886919592, guid: c7ab438d8e1f2024dbc5b845a4974ef2, type: 3}
+  - {fileID: 4950214731447416260, guid: b099e5413484ef0429d50703826d4c59, type: 3}
+  - {fileID: 7462334583800999020, guid: 4c20ff8109f81a349a795145e707c78e, type: 3}

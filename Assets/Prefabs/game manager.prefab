@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8996856763613374707
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8996856763613374709}
+  - component: {fileID: 8996856763613374708}
+  - component: {fileID: 1773017222200038754}
+  m_Layer: 0
+  m_Name: game manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8996856763613374709
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8996856763613374707}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.7726336, z: -2.743403}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8996856763613374708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8996856763613374707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be8e27ea81ba1614d86903409b888369, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultLevel: {fileID: 11400000, guid: 8fb289267833f1c4fb80ddb929c048be, type: 2}
+  allGameLevels:
+  - {fileID: 11400000, guid: c466bc4e831651f4fa1567e4c70ffda3, type: 2}
+  - {fileID: 11400000, guid: 56fda606b62606e40bc4cbc27e6f748b, type: 2}
+  defaultAvatar: {fileID: 6384121717892935481, guid: 311cf42974900d44bad591c85f1509a6, type: 3}
+  allAvatars: []
+--- !u!114 &1773017222200038754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8996856763613374707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edb39c96d90f1434ea9c0ef6e83e3a31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bloodSpillParticlesPrefab: {fileID: 198000011254678926, guid: abb9f519b142e304d9c45b56afa768bc, type: 3}

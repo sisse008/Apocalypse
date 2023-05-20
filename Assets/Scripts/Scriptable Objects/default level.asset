@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41413c72effb8c746913343968bc6084, type: 3}
+  m_Name: default level
+  m_EditorClassIdentifier: 
+  level_name: default level
+  hightBetweenPlatforms: 1.2
+  enemyConfiguration:
+    prefab: {fileID: 5278551543429662442, guid: cf1b17bcc7380064691e2b9725627f3e, type: 3}
+    enemyDamage: 0.284
+  coinConfiguration:
+    prefab: {fileID: 2414441095436284602, guid: 2cb7d1c47ece09c4687726ce68227d19, type: 3}
+  keyPrefab: {fileID: 1143335642, guid: def34953f4c9a4b40b31286686565ce0, type: 3}
+  platforms:
+  - {fileID: 3369995874948347422, guid: 8f03f1aed2a1d0f45b648703d252fa23, type: 3}
+  - {fileID: 8177705885777417055, guid: 0ed68913b66dfb5418ae3d975521a0cc, type: 3}
+  platformWithKey: {fileID: 5495483344464087780, guid: 7046f17b533db114f887fe990fa498dd, type: 3}
+  platformWithDoor: {fileID: 8301335842223885172, guid: 0083b5fd6df75064dbc6d2dadb17a638, type: 3}
