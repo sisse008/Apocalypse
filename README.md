@@ -3,7 +3,6 @@
 
 
 
-webgl playable: https://3dplatformerapocalypse.netlify.app/
 
 
 
