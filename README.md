@@ -6,9 +6,10 @@ https://3d-simple-platformer-with-selection.netlify.app/
 
 
 
-game controlls:
+player movement:
 
 arrows/AWSD for player movement, space bar for jumping.
+
 
 
 
