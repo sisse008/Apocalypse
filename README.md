@@ -6,6 +6,16 @@ https://3d-simple-platformer-with-selection.netlify.app/
 
 
 
+game controlls:
+
+arrows/AWSD for player movement, space bar for jumping.
+
+
+
+
+
+
+
 The Menu scene:
 
   The game manager:
